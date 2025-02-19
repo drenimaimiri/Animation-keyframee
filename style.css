@@ -1,0 +1,16 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    animation: gipsi 5s infinite;
+}
+
+@keyframes gipsi {
+   0%{top: 0px; left: 0px; right: 0px; background-color: black;}
+   25%{ top: 0px; left: 200px; right: 0px; background-color: blue;}
+   50%{top: 200px; left: 200px; right: 0px; background-color: blueviolet;}
+   75%{top: 200px; left: 0px; right: 200px; background-color: brown;}
+   100%{top: 0px; left: 0px; right: 0px; background-color: red;}
+   
+}
